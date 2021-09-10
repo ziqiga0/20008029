@@ -7,7 +7,7 @@ public class Greeter {
   private String name;
 
   public Greeter(String language, String country, String name) {
-    locale = new Locale(language, country);
+    locale = new Locale(country);
     this.name = name;
   }
 
